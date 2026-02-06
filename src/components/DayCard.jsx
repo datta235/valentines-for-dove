@@ -5,10 +5,9 @@ function DayCard({ day, onClick }) {
   const isUnlocked = dayDate <= today
 
   const handleClick = () => {
-    // if (isUnlocked) {
-    //   onClick(day)
-    // }
-    onClick(day);
+    if (isUnlocked) {
+      onClick(day)
+    }
   }
 
   return (
