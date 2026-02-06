@@ -1,0 +1,36 @@
+:root {
+  --color-rose: #e8a0bf;
+  --color-blush: #f5c6d0;
+  --color-burgundy: #8b2252;
+  --color-cream: #fdf6f0;
+  --color-ivory: #fffaf5;
+  --color-deep-pink: #c94c7c;
+  --color-soft-pink: #f9e4ec;
+
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-burgundy);
+  background-color: var(--color-cream);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+}
